@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'TT Interphases';
+  src: url('fonts/TTInterphases-Regular.ttf') format('truetype');
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'TT Interphases', sans-serif;
+    background-color: rgb(26, 16, 16);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+#main{
+    height: 100dvh;
+    width: 100dvw;
+    color: aliceblue;
+}
+.navbar{
+    height: 10dvh;
+    width: 100dvw;
+    position: fixed;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end;
+    font-size: larger;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.444); */
+    transition: all 0.4s ease;
+}
+.navbar a i {
+  color: white;
+}
+.light-mode .navbar a i {
+  color: teal;
+}
+.light-mode .linkedin i {
+  color: #0077b5; 
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul a{
+    text-decoration: none;
+}
+.darkmode{
+    color: white;
+    margin-right: 6vh;
+    font-size: x-large;
+    border: transparent;
+    background-color: transparent;
+}
+.darkmode:active{
+    transform: scale(1.05);
+}
+.darkmode:hover{
+    cursor: pointer;
+}
+.Home{
+    margin-right: 6vh;
+    color: white;
+}
+.Home:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.about{
+    margin-right: 6vh;
+    color: white;
+}
+.about:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.projects{
+    margin-right: 6vh;
+    color: white;
+}
+.projects:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.github{
+    margin-right: 6vh;
+    font-size: x-large;
+}
+.github:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.linkedin{
+    margin-right: 6vh;
+    font-size: x-large;
+}
+.linkedin:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    margin-top: 30dvh;
+    height: 50dvh;
+    width: 60dvw;
+    /* background-color: blue; */
+}
+.box2{
+    margin-top: 30dvh;
+    height: 50dvh;
+    width:40dvw;
+    /* background-color: burlywood; */
+}
+.section1{
+    text-align: start;
+    padding-left: 10dvh;
+    padding-top: 10dvh;
+}
+.greeting{
+    font-size: 4dvh;
+    font-weight: bolder;
+}
+.name{
+    font-size: 6dvh;
+    font-weight: bolder;
+    color: #b5b738;
+}
+.bio{
+    font-size: 3dvh;
+    font-weight: bolder;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 18dvh;
+}
+.pfp img{
+    border-radius: 5dvh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.467);
+}
+.aboutme{
+    height: 60dvh;
+    width: 100dvw;
+}
+.intro{
+   padding: 5dvh 10dvh 10dvh;
+   border-radius: 4dvh;
+   margin: 20dvh 2dvh 2dvh;
+}
+.point{
+    font-size: x-large;
+    padding-bottom: 5dvh;
+    padding: 3dvh;
+    background-color: cadetblue;
+}
+.brief{
+    font-size: 3dvh;
+    padding: 5dvh;
+    background-color: cadetblue;
+}
+.aboutsection{
+    height: 100dvh;
+    width: 100dvw;
+    margin-top: 25dvh;
+    padding: 30dvh;
+    /* padding-top: -10dvh; */
+    /* background-color: #b5b738; */
+}
+.aboutsection h2{
+    font-size: 8dvh;
+}
+.aboutsection h5{
+    font-size: larger;
+    text-align: start;
+    text-shadow: 0 0 0px #0ff, 0 0 10px #0ff, 0 0 0px #0ff;
+}
+.projectsection{
+    height: 100dvh;
+    width: 100dvw;
+    margin-top: 15dvh;
+    padding: 10dvh;
+    /* background-color: beige; */
+
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.projectsection h2{
+    font-size: 8dvh;
+}
+.project1{
+    height: 40dvh;
+    width: 40dvh;
+    background-color: black;
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+.project2{
+    height: 40dvh;
+    width: 40dvh;
+}
+.project2:hover{
+    transform: scale(1.1);
+}
+.resume{
+    height: 60dvh;
+    width: 100dvw;
+    margin-top: 30dvh;
+    padding: 10dvh;
+}
+.resume h2{
+    font-size: 8dvh;
+    text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 10px #0ff, 0 0 0px #0ff;
+}
+.resume button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vmin;
+    width: 18vmin;
+    background-color:gray;
+    color: white;
+    border: transparent;
+    border-radius: 4dvh;
+}
+.resume button:active{
+    transform: scale(0.95);
+}
+footer{
+    height: 20dvh;
+    width: 100dvw;
+    /* background-color: darkslategray; */
+    text-align: center;
+}
+footer hr{
+    filter: blur(4px);
+}
+
+
+
+
