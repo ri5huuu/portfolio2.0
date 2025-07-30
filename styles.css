@@ -1,0 +1,263 @@
+@media (max-width: 1440px){
+    .Home, .about, .projects, .github, .linkedin{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .navbar{
+        position: relative;
+        right: 3vh;
+    }
+    .darkmode , .menu{
+        font-size: 3em;
+    }
+    .content{
+        /* background-color: aqua; */
+        height: 50dvh;
+    }
+    .box2{
+        display: none;
+    }
+    .box1{
+        position: relative;
+        top: 20dvh;
+        height: 100dvh;
+        width: 100dvw;
+    }
+    .section1{
+        text-align: start;
+        padding-left: 10dvh;
+        padding-top: 5dvh;
+    /* background: #d72d2d; */
+    }
+    .greeting{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .name{
+    font-size: 4dvh;
+    font-weight: bolder;
+    color: #b5b738;
+    }
+    .bio{
+    font-size: 2.5dvh;
+    font-weight: bolder;
+    }
+    .aboutsection{
+        position: relative;
+        top: 10dvh;
+        height: 100dvh;
+        width: 100dvw;
+        padding: 5dvw;
+        /* background-color: azure; */
+    }
+    .aboutsection h2{
+        font-size: 6em;
+    }
+    .aboutsection h5{
+        font-size: 2em;
+    }
+    .projectsection{
+        position: relative;
+        bottom: 5dvh ;
+        height: 100dvh;
+        width: 100dvw;
+        padding: 5dvw;
+        margin-bottom: 10dvh;
+    }
+    .projectsection h2{
+        font-size: 6em;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .project1{
+        margin-top: 5dvh;
+        height: 40dvh;
+        width: 60dvw;
+        /* background-color: rgb(185, 47, 47); */
+        padding-left: 2dvw;
+        font-size: 1.8em;
+        margin-bottom: 10dvh;
+    }
+    .project2{
+        margin-top: 5dvh;
+        height: 40dvh;
+        width: 60dvw;
+        /* background-color: rgb(185, 47, 47); */
+        padding-left: 2dvw;
+        font-size: 1.8em;
+        margin-bottom: 10dvh;
+    }
+    .resume{
+        margin-top: 10dvh;
+        height: 100dvh;
+        width: 100dvw;
+        margin-top: 60dvh;
+        padding: 5dvw;
+    }
+    .resume h2{
+        font-size: 5em;
+        text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 10px #0ff, 0 0 0px #0ff;
+    }
+    .resume button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5dvh;
+        width: 18dvw;
+        background-color:gray;
+        color: white;
+        border: transparent;
+        border-radius: 4dvh;
+        font-size: 1.6em;
+    }
+    footer{
+        height: 12dvh;
+        width: 100dvw;
+    /* background-color: darkslategray; */
+        text-align: center;
+    }
+    footer h3{
+        font-size: 1.8em;
+    }
+    footer ul a{
+        text-decoration: none;
+        color: gray;
+        font-size: 1.6em;
+    }
+    
+}
+
+@media (max-width:1024px){
+    .darkmode , .menu{
+        font-size: 2.5em;
+    }
+    .section1{
+        text-align: start;
+        padding-left: 3dvh;
+        padding-top: 5dvh;
+    /* background: #d72d2d; */
+    }
+    .greeting{
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    .name{
+        font-size: 4em;
+        font-weight: bolder;
+        color: #b5b738;
+    }
+    .bio{
+        font-size: 2.3em;
+        font-weight: bolder;
+    }   
+    .aboutsection h2{
+        font-size: 5em;
+    }
+    .aboutsection h5{
+        font-size: 1.8em;
+    }
+    .projectsection{
+        position: relative;
+        bottom: 5dvh ;
+        height: 60dvh;
+        width: 100dvw;
+        padding: 5dvw;
+    }
+    .projectsection h2{
+        font-size: 5em;
+    }
+     .project1{
+        margin-top: 5dvh;
+        height: 40dvh;
+        width: 55dvw;
+        /* background-color: rgb(185, 47, 47); */
+        padding-left: 2dvw;
+        font-size: 1.8em;
+    }
+    .project2{
+        margin-top: 5dvh;
+        height: 40dvh;
+        width: 55dvw;
+        /* background-color: rgb(185, 47, 47); */
+        padding-left: 2dvw;
+        font-size: 1.8em;
+    }
+    .resume{
+        height: 60dvh;
+        width: 100dvw;
+        margin-top: 60dvh;
+        padding: 5dvw;
+    }
+    .resume h2{
+        font-size: 4em;
+        text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 10px #0ff, 0 0 0px #0ff;
+    }
+    .resume button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 6dvh;
+        width: 20dvw;
+        background-color:gray;
+        color: white;
+        border: transparent;
+        border-radius: 4dvh;
+        font-size: 1.6em;
+    }
+}
+@media (max-width:768px){
+    .box1{
+        position: relative;
+        top: 40dvh;
+        height: 100dvh;
+        width: 100dvw;
+    }
+    .greeting{
+        font-size: 2.3em;
+        font-weight: bolder;
+    }
+    .name{
+        font-size: 3em;
+        font-weight: bolder;
+        color: #b5b738;
+    }
+    .bio{
+        font-size: 1.6em;
+        font-weight: bolder;
+    }  
+    .aboutsection h2{
+        font-size: 4em;
+    }
+    .aboutsection h5{
+        font-size: 1.8em;
+    }
+    .projectsection{
+        position: relative;
+        bottom: 5dvh ;
+        height: 60dvh;
+        width: 100dvw;
+        padding: 5dvw;
+    }
+    .projectsection h2{
+        font-size: 4em;
+    }
+    .resume button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 6dvh;
+        width: 28dvw;
+        background-color:gray;
+        color: white;
+        border: transparent;
+        border-radius: 4dvh;
+        font-size: 1.6em;
+    }
+}
