@@ -207,7 +207,7 @@ span{
 .project1{
     height: 40dvh;
     width: 40dvh;
-    background-color: black;
+    /* background-color: black; */
 }
 .project1:hover{
     transform: scale(1.1);
